@@ -2,6 +2,9 @@ def fizzbuzz(upper_limit: int, substitutes: dict):
     """
     >>> fizzbuzz(20, {'Fizz' : 3, 'Buzz' : 5})
     [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', 16, 17, 'Fizz', 19, 'Buzz']
+
+    >>> fizzbuzz(200, {'Fizz': 3, 'Buzz': 5, 'Fuzz': 7})[100:110]
+    [101, 'Fizz', 103, 104, 'FizzBuzzFuzz', 106, 107, 'Fizz', 109, 'Buzz']
     """
     result = []
     for number in range(1, upper_limit + 1):
