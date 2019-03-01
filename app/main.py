@@ -1,3 +1,3 @@
 from app.lib import fizzbuzz
 
-print(fizzbuzz(20, 3, 5))
+print(fizzbuzz(30, {'Fizz': 3, 'Buzz': 5}))
