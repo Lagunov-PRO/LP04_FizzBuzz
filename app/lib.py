@@ -5,7 +5,7 @@ def fizzbuzz(substitutes={'Fizz': 3, 'Buzz': 5}, upper_limit=100):
         by 5 with Buzz
         by both by FizzBuzz
         and so on...
-    >>> fizzbuzz({'Fizz': 3, 'Buzz': 5}, 15)[5:]
+    >>> fizzbuzz()[5:15]
     ['Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
 
     >>> fizzbuzz({'Fizz': 3, 'Buzz': 5, 'Fuzz': 7}, 200)[100:110]
