@@ -16,5 +16,5 @@ def fizzbuzz(substitutes={'Fizz': 3, 'Buzz': 5}, upper_limit=100):
         substitution = ''
         for substitute, divisor in substitutes.items():
             substitution += substitute if number % divisor == 0 else ''
-        result.append(number if not substitution else substitution)
+        result.append(substitution if substitution else number)
     return result
